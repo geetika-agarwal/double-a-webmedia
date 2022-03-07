@@ -24,7 +24,7 @@ const NavbarSection = ({ toggle }) => {
         </NavLogoContainer>
         <Bars onClick={toggle} />
         <NavMenu>
-          <NavLinkText to="/">Home</NavLinkText>
+          <NavLinkText to="/double-a-webmedia">Home</NavLinkText>
 
           <NavLinkText to="/our-work">Our Work</NavLinkText>
 
