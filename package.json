@@ -2,12 +2,14 @@
   "name": "lct",
   "version": "0.1.0",
   "private": true,
+  "homepage": " https://geetika22.github.io/double-a-webmedia/",
   "dependencies": {
     "@yozora/react-blockquote": "^1.0.0-alpha.40",
     "aos": "^2.3.4",
     "axios": "^0.22.0",
     "bpk-component-blockquote": "^3.0.11",
     "cra-template": "1.1.2",
+    "gh-pages": "^3.2.3",
     "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
     "react": "^17.0.2",
@@ -32,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
