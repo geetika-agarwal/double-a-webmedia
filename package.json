@@ -2,7 +2,7 @@
   "name": "lct",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://geetika22.github.io/double-a-webmedia/",
+  "homepage": " https://geetika22.github.io",
   "dependencies": {
     "@yozora/react-blockquote": "^1.0.0-alpha.40",
     "aos": "^2.3.4",
